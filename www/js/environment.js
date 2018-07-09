@@ -9,8 +9,8 @@ var ENV = {
     // SERVICE_URL: 'http://erosify-server.herokuapp.com',
     // CHAT_SERVER_URL: 'https://erosify-chat-server.herokuapp.com/',
     // SERVICE_URL: 'https://arcane-woodland-65989.herokuapp.com',
-    SERVICE_URL: 'https://61dd53d7.ngrok.io',
+    SERVICE_URL: 'https://tinder-app-servers.herokuapp.com/',
     // CHAT_SERVER_URL: 'https://immense-shore-19062.herokuapp.com/',
-    CHAT_SERVER_URL: 'https://b39df4e8.ngrok.io',
+    CHAT_SERVER_URL: 'https://b09dc161.ngrok.io',
     AMAZON_S3: 'https://erosifyimages.s3.amazonaws.com'
 };
