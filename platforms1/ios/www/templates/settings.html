@@ -1,0 +1,73 @@
+<ion-header-bar align-title="left">
+    <div class="buttons">
+        <button id="settings-menu-icon" class="button button-icon button-clear ion-navicon" menu-toggle="left"></button>
+    </div>
+    <div class="title-views">
+        <span>Settings</span>
+    </div>
+</ion-header-bar>
+<ion-content class="settings-bg">
+
+        <ul class="list">
+            <div class="item item-divider">
+                Notifications
+                <i class="icon ion-android-notifications" style="float: right;font-size: 23px;"></i>
+            </div>
+            <li class="item item-toggle">
+                New Matches
+                <label class="toggle toggle-calm">
+                    <input type="checkbox" checked>
+                    <div class="track">
+                        <div class="handle"></div>
+                    </div>
+                </label>
+            </li>
+            <li class="item item-toggle">
+                Messages
+                <label class="toggle toggle-calm">
+                    <input type="checkbox" checked>
+                    <div class="track">
+                        <div class="handle"></div>
+                    </div>
+                </label>
+            </li>
+            <li class="item item-toggle">
+                Events
+                <label class="toggle toggle-calm">
+                    <input type="checkbox" checked>
+                    <div class="track">
+                        <div class="handle"></div>
+                    </div>
+                </label>
+            </li>
+        </ul>
+
+        <div class="list">
+            <div class="item item-divider">
+                Legal
+                <i class="icon ion-document-text" style="float: right;font-size: 23px;"></i>
+            </div>
+            <a class="item" ng-click="openPrivacyPolicy()">
+                Privacy Policy
+            </a>
+            <a class="item" ng-click="openTermsOfService()">
+                Terms of Service
+            </a>
+        </div>
+
+        <div class="button-logout" ng-click="logOut()">Sign Out</div>
+
+        <div class=" row text-center" style="margin: 20px 0;">
+            <div class="col">
+                <img src="img/logo-green.png">
+                <br />
+                <span>&copy; 2016. Made with love in Miami, FL.</span><br />
+                <span>Version 1.0.0</span>
+            </div>
+        </div>
+
+        <div class="button-logout" ng-click="deleteAccount()" style="color: orangered">Delete Account</div>
+        <br />
+</ion-content>
+
+
